@@ -1,39 +1,45 @@
 package MainPackage;
 
 public class MyInteger {
-	int value;
+	int value = 1;
 	
 	public static void main (String[] args)  {
-		
-		System.out.println("My Number is: " + MyInteger());
+		System.out.println("My Number is: " );
+		System.out.println("this will be if its even or odd(0 is even)");
+		System.out.println("this will be if its prime or not");
 	}
 
-	public static int MyInteger() {
-		
+	public MyInteger() {
 		int value = 1;
-		return (value);
 	}
-	public static void isEven() {
+	public  boolean isEven() {
+		//this should have the if/else statements
+		if (value %2 == 0)
+			return true;
+		else {
+			return false;
+		}
+	}
+	
+	public static boolean isEven(int num) {
+		if (num %2 == 0)
+			return true;
+		else {
+			return false;
+			}
+	}
+	public boolean isOdd() {
+		if (value %2 != 0)
+			return true;
+		else {
+			
+		}
+			
 		
 	}
-	public static void isOdd() {
-		
-	}
-	public static void isPrime() {
+	public void isPrime() {
 		
 		}
-	public static int isEven(int x) {
-		x = 1; //This is suppose to be an if/else
-		//it will accept an integer x and return a
-		// statement if its true or false
-		return (x);
-		}
-	public static int isOdd(int x) {
-		x = 1;
-		return (x);
-	}
-	public static int isPrime(int x) {
-		x = 1;
-		return (x);
-	}
+	
+		
 }
