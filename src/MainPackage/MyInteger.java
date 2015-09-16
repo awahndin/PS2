@@ -1,13 +1,8 @@
 package MainPackage;
 
 public class MyInteger {
-	int value = 1;
+	int value;
 	
-	public static void main (String[] args)  {
-		System.out.println("My Number is: ");
-		System.out.println("this will be if its even or odd(0 is even)");
-		System.out.println("this will be if its prime or not");
-	}
 
 	public MyInteger() {
 		int value = 1;
@@ -66,6 +61,10 @@ public class MyInteger {
 		}
 		}
 		return false;
+	}	
+	//public static boolean isEven(MyInteger) {
+		//x = true
+				
+	//}
 	}
-		
-}
+//}
